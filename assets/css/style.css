@@ -43,6 +43,7 @@ h6 {
   padding-bottom: 2rem !important;
   top: 0;
   left: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -166,4 +167,14 @@ h6 {
 
 .product:hover img {
   opacity: 0.7;
+}
+
+footer .copyright a:hover {
+  color: #fff;
+  background-color: #fb774b;
+}
+
+footer p {
+  color: #999;
+  font-size: 0.8rem;
 }
